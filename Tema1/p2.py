@@ -28,9 +28,14 @@ vreau_sa_dispar = [
     "|",
 ]
 
+# scoatere semne de punctuatie
 for ch in vreau_sa_dispar:
     continut = continut.replace(ch, "")
 
+# scoatere spatii multiple
 continut = re.sub(" +", " ", continut)
+
+# uppercase
+continut = continut.upper()
 
 print(continut)
