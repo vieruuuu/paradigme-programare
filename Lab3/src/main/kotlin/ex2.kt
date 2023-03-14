@@ -53,14 +53,16 @@ fun main(args: Array<String>) {
       )
 
   print("Doriti sa adaugati cuvinte noi in dictionar? [y/f/N] ")
+
   var stdin = Scanner(System.`in`)
-  val choice = stdin.nextLine().getOrElse(0) { _ -> 'n' }
-  if (choice.lowercase() == "y") {
+  val choice = stdin.nextLine().getOrElse(0) { _ -> 'n' }.lowercase()
+
+  if (choice == "y") {
     println(
         "Inserati cuvintele si o linie goala cand ati terminat (separati cuvantul netradus de cunvatul tradus cu =): "
     )
     updateDictionaryFromScanner(dictionar, stdin)
-  } else if (choice.lowercase() == "f") {
+  } else if (choice == "f") {
     print("Introduceti calea catre fisier: ")
     val path = stdin.next()
     updateDictionaryFromScanner(dictionar, Scanner(File(path)))
@@ -69,32 +71,26 @@ fun main(args: Array<String>) {
   val poveste =
       "Once upon a time there was an old woman who loved baking gingerbread. She would bake gingerbread cookies, cakes, houses and gingerbread people, all decorated with chocolate and peppermint, caramel candies and colored ingredients."
 
-  val words1 = poveste.split(" ")
-  println("Cuvintele din poveste [${words1.count()}]:")
+  val cuvintePoveste = poveste.split(" ")
+  println("Cuvintele din poveste [${cuvintePoveste.count()}]:")
 
-  for (word in words1) {
-    print("$word ")
-  }
-
-  val words2 = mutableListOf<String>()
-  for (word in words1) {
-    words2.add(word.trim(',', '.'))
-  }
+  println(poveste)
 
   println("\n")
   println("Povestea tradusa ar suna cam asa:")
 
   val fisier = File("poveste.txt")
 
-  for (item in words2) {
-    if (dictionar.contains(item)) {
-      print(dictionar[item])
-      fisier.writeText(text = dictionar[item]!!)
+  for (cuv in cuvintePoveste.map { it.trim(',', '.') }) {
+    if (dictionar.contains(cuv)) {
+      print(dictionar[cuv])
+      fisier.writeText(dictionar[cuv]!!)
     } else {
-      print("[$item]")
-      fisier.writeText(text = "[$item]")
+      print("NU POATE FI TRADUS -> $cuv")
+      fisier.writeText("NU POATE FI TRADUS -> $cuv")
     }
+
     print(" ")
-    fisier.writeText(text = " ")
+    fisier.writeText(" ")
   }
 }
