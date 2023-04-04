@@ -1,0 +1,116 @@
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx systemd-modules-load[320]: Inserted module 'lp'
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx systemd-modules-load[320]: Inserted module 'ppdev'
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx systemd-modules-load[320]: Inserted module 'parport_pc'
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx systemd-sysusers[332]: Creating group systemd-coredump with gid 999.
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx systemd-sysusers[332]: Creating user systemd-coredump (systemd Core Dumper) with uid 999 and gid 999.
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx systemd-modules-load[320]: Inserted module 'msr'
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx systemd-sysctl[335]: Not setting net/ipv4/conf/all/promote_secondaries (explicit setting exists).
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx systemd-sysctl[335]: Not setting net/ipv4/conf/default/promote_secondaries (explicit setting exists).
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx systemd[1]: Starting Flush Journal to Persistent Storage...
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx systemd[1]: Finished Apply Kernel Variables.
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx systemd[1]: Finished Create System Users.
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx systemd[1]: Starting Create Static Device Nodes in /dev...
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx systemd[1]: Finished Coldplug All udev Devices.
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000000] Linux version 5.11.0-16-generic (buildd@lgw01-amd64-035) (gcc (Ubuntu 10.3.0-1ubuntu1) 10.3.0, GNU ld (GNU Binutils for Ubuntu) 2.36.1) #17-Ubuntu SMP Wed Apr 14 20:12:43 UTC 2021 (Ubuntu 5.11.0-16.17-generic 5.11.12)
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-5.11.0-16-generic root=UUID=3e8ee609-8475-4763-80ec-6f21a3838228 ro quiet splash vt.handoff=7
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx systemd[1]: Finished Create Static Device Nodes in /dev.
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000000] KERNEL supported cpus:
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000000]   Intel GenuineIntel
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000000]   AMD AuthenticAMD
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000000]   Hygon HygonGenuine
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000000]   Centaur CentaurHauls
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx systemd[1]: Reached target Local File Systems (Pre).
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000000]   zhaoxin   Shanghai  
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000000] x86/split lock detection: warning about user-space split_locks
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx systemd[1]: Mounting Mount unit for core18, revision 1997...
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x020: 'AVX-512 opmask'
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx systemd[1]: Mounting Mount unit for gnome-3-34-1804, revision 66...
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x040: 'AVX-512 Hi256'
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x080: 'AVX-512 ZMM_Hi256'
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x200: 'Protection Keys User registers'
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000000] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000000] x86/fpu: xstate_offset[5]:  832, xstate_sizes[5]:   64
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000000] x86/fpu: xstate_offset[6]:  896, xstate_sizes[6]:  512
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000000] x86/fpu: xstate_offset[7]: 1408, xstate_sizes[7]: 1024
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx systemd[1]: Mounting Mount unit for gtk-common-themes, revision 1514...
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000000] x86/fpu: xstate_offset[9]: 2432, xstate_sizes[9]:    8
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000000] x86/fpu: Enabled xstate features 0x2e7, context size is 2440 bytes, using 'compacted' format.
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000000] BIOS-provided physical RAM map:
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009efff] usable
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx systemd[1]: Mounting Mount unit for snap-store, revision 518...
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000000] BIOS-e820: [mem 0x000000000009f000-0x00000000000fffff] reserved
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x000000003f4fefff] usable
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000000] BIOS-e820: [mem 0x000000003f4ff000-0x0000000043ccefff] reserved
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000000] BIOS-e820: [mem 0x0000000043ccf000-0x0000000044abefff] ACPI NVS
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000000] BIOS-e820: [mem 0x0000000044abf000-0x0000000044bfefff] ACPI data
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000000] BIOS-e820: [mem 0x0000000044bff000-0x0000000044bfffff] usable
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx systemd[1]: Mounting Mount unit for snapd, revision 11588...
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000000] BIOS-e820: [mem 0x0000000044c00000-0x0000000048ffffff] reserved
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000000] BIOS-e820: [mem 0x0000000049e00000-0x000000004f7fffff] reserved
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx systemd[1]: Starting Rule-based Manager for Device Events and Files...
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000000] BIOS-e820: [mem 0x00000000c0000000-0x00000000cfffffff] reserved
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000000] BIOS-e820: [mem 0x00000000fe010000-0x00000000fe010fff] reserved
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000000] BIOS-e820: [mem 0x00000000fed20000-0x00000000fed7ffff] reserved
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000000] BIOS-e820: [mem 0x00000000ff500000-0x00000000ffffffff] reserved
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx systemd[1]: Activated swap /swapfile.
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000000] BIOS-e820: [mem 0x0000000100000000-0x00000002b07fffff] usable
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000000] NX (Execute Disable) protection: active
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000000] efi: EFI v2.70 by INSYDE Corp.
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx systemd[1]: Reached target Swap.
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000000] efi: ACPI=0x44bfe000 ACPI 2.0=0x44bfe014 TPMFinalLog=0x44a55000 ESRT=0x413b5d18 SMBIOS=0x40c90000 SMBIOS 3.0=0x40c8e000 MEMATTR=0x2dea1018 MOKvar=0x40c60000 RNG=0x40c92898 TPMEventLog=0x2de90018 
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000000] efi: seeding entropy pool
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000000] random: fast init done
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000000] secureboot: Secure boot enabled
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx systemd[1]: Finished Flush Journal to Persistent Storage.
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000000] Kernel is locked down from EFI Secure Boot mode; see man kernel_lockdown.7
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000000] SMBIOS 3.3.0 present.
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000000] DMI: HP HP Laptop 15-dw3xxx/881D, BIOS F.53 10/15/2021
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000000] tsc: Detected 2400.000 MHz processor
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000000] tsc: Detected 2419.200 MHz TSC
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx systemd[1]: Started Rule-based Manager for Device Events and Files.
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000005] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000008] e820: remove [mem 0x000a0000-0x000fffff] usable
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000012] last_pfn = 0x2b0800 max_arch_pfn = 0x400000000
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx systemd[1]: Starting Show Plymouth Boot Screen...
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000015] MTRR default type: write-back
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000016] MTRR fixed ranges enabled:
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000017]   00000-9FFFF write-back
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx systemd[1]: Received SIGRTMIN+20 from PID 361 (plymouthd).
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000018]   A0000-BFFFF uncachable
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx systemd[1]: Started Show Plymouth Boot Screen.
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000019]   C0000-FFFFF write-protect
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000019] MTRR variable ranges enabled:
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000020]   0 base 0080000000 mask 7F80000000 uncachable
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx systemd[1]: Condition check resulted in Dispatch Password Requests to Console Directory Watch being skipped.
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000022]   1 base 0060000000 mask 7FE0000000 uncachable
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000023]   2 base 0050000000 mask 7FF0000000 uncachable
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000024]   3 base 004C000000 mask 7FFC000000 uncachable
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000024]   4 base 004B000000 mask 7FFF000000 uncachable
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000025]   5 base 4000000000 mask 4000000000 uncachable
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx systemd[1]: Started Forward Password Requests to Plymouth Directory Watch.
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000026]   6 disabled
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000027]   7 disabled
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx systemd[1]: Reached target Local Encrypted Volumes.
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000027]   8 disabled
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000028]   9 disabled
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.000164] x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.001111] last_pfn = 0x44c00 max_arch_pfn = 0x400000000
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.009135] ACPI: Early table checksum verification disabled
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.009138] ACPI: RSDP 0x0000000044BFE014 000024 (v02 HPQOEM)
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx systemd[1]: Mounted Mount unit for core18, revision 1997.
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.009141] ACPI: XSDT 0x0000000044BD7188 00013C (v01 HPQOEM SLIC-MPC 00000002 HP   01000013)
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.009145] ACPI: FACP 0x0000000044BD6000 000114 (v06 HPQOEM SLIC-MPC 00000002 HP   00040000)
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.009149] ACPI: DSDT 0x0000000044B84000 04DF0F (v02 HPQOEM 881D     00000002 HP   00040000)
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.009151] ACPI: FACS 0x0000000044A30000 000040
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.009154] ACPI: UEFI 0x0000000044ABE000 000236 (v01 HPQOEM 881D     00000001 HP   00040000)
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.009156] ACPI: SSDT 0x0000000044BFA000 00255C (v02 HPQOEM 881D     00003000 HP   20160422)
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx systemd-udevd[376]: Using default interface naming scheme 'v247'.
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.009158] ACPI: SSDT 0x0000000044BF6000 0036F6 (v02 HPQOEM 881D     00001000 HP   20160422)
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.009160] ACPI: SSDT 0x0000000044BF5000 000100 (v02 HPQOEM 881D     00003000 HP   20160422)
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.009162] ACPI: SSDT 0x0000000044BF3000 001CF8 (v02 HPQOEM 881D     00003000 HP   20160422)
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.009165] ACPI: SSDT 0x0000000044BEF000 003300 (v02 HPQOEM 881D     00003000 HP   20160422)
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx systemd-udevd[376]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Mar  5 22:05:04 e-HP-Laptop-15-dw3xxx kernel: [    0.009167] ACPI: SSDT 0x0000000044BEE000 00077B (v02 HPQOEM 881D     00001000 HP   20160422)
