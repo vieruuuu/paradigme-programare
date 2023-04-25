@@ -1,2 +1,3 @@
 graalvm/
 dist/
+__pycache__/
