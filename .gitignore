@@ -1,3 +1,5 @@
 graalvm/
 dist/
 __pycache__/
+.gradle/
+build/
